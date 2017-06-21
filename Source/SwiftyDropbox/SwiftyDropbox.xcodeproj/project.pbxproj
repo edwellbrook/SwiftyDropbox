@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC5DEA491EFB3395004BA45D /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5DEA481EFB3395004BA45D /* Keychain.swift */; };
+		BC5DEA4A1EFB3395004BA45D /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5DEA481EFB3395004BA45D /* Keychain.swift */; };
 		F2478EEE1ECCD0B300BAF014 /* Async.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2478EC81ECCD0B300BAF014 /* Async.swift */; };
 		F2478EEF1ECCD0B300BAF014 /* Async.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2478EC81ECCD0B300BAF014 /* Async.swift */; };
 		F2478EF01ECCD0B300BAF014 /* Auth.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2478EC91ECCD0B300BAF014 /* Auth.swift */; };
@@ -94,6 +96,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BC5DEA481EFB3395004BA45D /* Keychain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keychain.swift; sourceTree = "<group>"; };
 		F2478EC81ECCD0B300BAF014 /* Async.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Async.swift; sourceTree = "<group>"; };
 		F2478EC91ECCD0B300BAF014 /* Auth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Auth.swift; sourceTree = "<group>"; };
 		F2478ECA1ECCD0B300BAF014 /* AuthRoutes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthRoutes.swift; sourceTree = "<group>"; };
@@ -224,6 +227,7 @@
 				F2478EE91ECCD0B300BAF014 /* DropboxTeamClient.swift */,
 				F2478EEA1ECCD0B300BAF014 /* DropboxTransportClient.swift */,
 				F2478EEB1ECCD0B300BAF014 /* OAuth.swift */,
+				BC5DEA481EFB3395004BA45D /* Keychain.swift */,
 				F2478EEC1ECCD0B300BAF014 /* SwiftyDropbox.h */,
 				F2478EED1ECCD0B300BAF014 /* TransportConfig.swift */,
 				F2478F381ECCD2FF00BAF014 /* SDKConstants.swift */,
@@ -424,6 +428,7 @@
 				F2478F301ECCD0B300BAF014 /* DropboxTransportClient.swift in Sources */,
 				F2478F241ECCD0B300BAF014 /* CustomTasks.swift in Sources */,
 				F2478EFA1ECCD0B300BAF014 /* Files.swift in Sources */,
+				BC5DEA491EFB3395004BA45D /* Keychain.swift in Sources */,
 				F2478F161ECCD0B300BAF014 /* TeamPolicies.swift in Sources */,
 				F2478EF61ECCD0B300BAF014 /* BaseTeam.swift in Sources */,
 				F265BD0B1E68072500CC38C8 /* OAuthMobile.swift in Sources */,
@@ -468,6 +473,7 @@
 				F2478F311ECCD0B300BAF014 /* DropboxTransportClient.swift in Sources */,
 				F2478F251ECCD0B300BAF014 /* CustomTasks.swift in Sources */,
 				F2478EFB1ECCD0B300BAF014 /* Files.swift in Sources */,
+				BC5DEA4A1EFB3395004BA45D /* Keychain.swift in Sources */,
 				F2478F171ECCD0B300BAF014 /* TeamPolicies.swift in Sources */,
 				F2478EF71ECCD0B300BAF014 /* BaseTeam.swift in Sources */,
 				F265BD101E68073A00CC38C8 /* OAuthDesktop.swift in Sources */,
