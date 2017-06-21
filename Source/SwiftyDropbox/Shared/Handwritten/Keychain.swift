@@ -19,7 +19,6 @@ class Keychain {
 
         queryDict[kSecClass as String]       = kSecClassGenericPassword
         queryDict[kSecAttrService as String] = "\(bundleId).dropbox.authv2" as AnyObject?
-        queryDict[kSecAttrService as String] = kSecAttrAccessibleAfterFirstUnlockThisDeviceOnly
 
         return queryDict as CFDictionary
     }
