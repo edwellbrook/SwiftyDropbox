@@ -25,7 +25,7 @@ open class DropboxOAuthManager {
     let appKey: String
     let redirectURL: URL
     let host: String
-    var urls: Array<URL>
+    open var urls: Array<URL>
 
     // MARK: Shared instance
     /// A shared instance of a `DropboxOAuthManager` for convenience
